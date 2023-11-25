@@ -45,7 +45,7 @@ server.get('/generatepaper',async(req,res)=>{
 
 })
 
-server.get('/',(req,res)=>{
+server.get('/check',(req,res)=>{
     res.send('api running successfully')
 })
 server.listen(4000);
